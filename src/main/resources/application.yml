@@ -5,9 +5,9 @@ spring:
     init:
       mode: never
   datasource:
-    url: jdbc:postgresql://localhost:5432/exam_project
-    password: root123
-    username: postgres
+    url: postgres://ilqcqvlwvygkal:5686e7ef58de2f027ab68aee76070dcf03b34cda2cf4ef779a8039f49e506756@ec2-52-210-97-223.eu-west-1.compute.amazonaws.com:5432/d7squkghvc36s4
+    password: 5686e7ef58de2f027ab68aee76070dcf03b34cda2cf4ef779a8039f49e506756
+    username: ilqcqvlwvygkal
   jpa:
     hibernate:
       ddl-auto: update
